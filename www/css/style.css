@@ -1,0 +1,177 @@
+/**/
+html,body{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    height:100%;
+}
+#body{
+    background-color:#fad4af;
+    /*background-color:#E9CE96;*/
+    overflow: hidden;
+    height:100%;
+    /*font-family: 'La Belle Aurore', cursive;
+    font-family: 'Meddon', cursive;
+    */
+    /*
+    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Stalemate', cursive;
+    */
+}
+
+#whole{
+    position: relative;
+    text-align: center;
+    
+    width: 100%;
+    /*height:auto !important; *//*IE6対策*/
+    height: 100%; /*IE6対策*/
+    min-height: 100%;
+    
+    transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+}
+
+#title{
+    width:80%;
+    height:50px ;
+    margin-bottom:20px;
+    /*font-family: 'La Belle Aurore', cursive;*/
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Stalemate', cursive;
+    font-size:x-large;
+    color:#6D4136;
+    
+    transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+
+}
+
+#title_p{
+
+    vertical-align: top;
+    margin-top:15px;
+
+}
+
+.button{
+    position: absolute;
+    right: 0;
+    left:0;
+    margin-left : auto ; 
+    margin-right : auto ;
+    margin-top:50px;
+    float:left;
+    top:100px;
+    height: 50px;
+    width:100px;
+    color:#6D4136;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+}
+
+#camera{
+    margin-left:10%;
+    color:#6D4136;
+
+}
+
+
+#album{
+    margin-right:20%;
+    color:#6D4136;
+    
+
+}
+
+
+#uploader{
+
+    color:#6D4136;
+    
+}
+.image{
+    float:none;;
+    min-height:200px;
+    padding:10px;
+    padding-top:20px;
+    margin:20px;
+    margin-top:130px;
+    /*font-family: 'Aldrich', sans-serif;
+    font-family: 'Meddon', cursive;
+    */
+    font-family: 'Sacramento', cursive;
+    font-size: middle;
+}
+
+
+
+
+.textbox{
+    right: 0;
+    left:-40px;
+    margin-left : auto ; 
+    margin-right : auto ;
+    /*background-color: #FAF3CC;*/
+    /*font-family: 'La Belle Aurore', cursive;*/
+    font-family: 'Sacramento', cursive;
+    /*font-family: 'Stalemate', cursive;*/
+    /*sbackground-color:#00ff00; */
+
+}
+
+#result{
+    /*width:auto;*/
+    /*background-color:#00fff0; */
+    margin-top:-20px;
+    padding-bottom:140px;
+        
+    color:#6D4136;
+}
+
+#loading{
+    margin-top:-5px;
+    margin-bottom:0px;
+    vertical-align: middle;
+    font-size:x-small;
+    /*background-color:#ffffff; */
+}
+
+#caption{
+    position:absolute;
+    margin-top:0px;
+    
+    height:40px;
+    width:80%;
+
+    /*background-color:#ff00ff;*/
+    font-size:x-large;
+
+}
+
+
+#description{
+    position:absolute;
+    height:80px;
+    width:90%;
+    left: 20px;
+    padding:20px;
+    margin-top:20px;
+    font-size:x-small;
+    /*background-color:#ff0000;*/
+}
+
+
+#footer{
+    position: absolute;
+    bottom:-200px;
+    height: 140px;
+}

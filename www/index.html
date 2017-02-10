@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, minimum-scale=1, width=device-width" />
+    <!--meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"-->
+    <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+   
+    <script src="js/upload.js"></script>
+    <!--@import url('https://fonts.googleapis.com/css?family=Aldrich|La+Belle+Aurore|Meddon');-->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Dancing+Script|La+Belle+Aurore|Sacramento|Stalemate');
+    </style>
+</head>
+
+<body id="body" scroll="no">
+    
+    
+    <div id="whole">
+        
+        
+        <div id="uploader">
+            <div id="title" class="textbox">
+                <h1 id="title_p">KINOKO CLASSIFIER</h1>
+            </div>
+            
+            <div id="camera" class="button" onclick="camera(1)">
+                
+            </div>
+            
+            <div id="album" class="button" onclick="camera(0)">
+                
+            </div>
+            
+
+
+    	    <div class="image" onclick="camera(0)">
+                <!--<p>写真を選んでください。</p>-->
+                <p>select a photo from your album</p>
+            </div>
+
+        </div>
+    	
+        <div id="result">
+            <p id="loading">&nbsp;</p>
+            
+            <div id="caption" class="textbox">
+            </div>
+            
+            <div id="description" class="textbox">        
+            </div>
+            
+        </div>
+        <div id="footer">    
+            
+
+           
+        </div>
+        
+    </div>
+    
+
+    
+</body>
+
+
+</html>
