@@ -34,7 +34,7 @@
 <img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_0972.PNG" width="100px"> <img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1081.PNG" width="250px">
 <img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1078.PNG" width="150px"> <img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1080.PNG" width="250px">  
 
-読めないｗ  
+読めない＾＾;  
 
 ##フォルダ構成  
 * backend_CNN_classifier ・・・・・・・・・・・・・・ chainerで画像分類用CNNモデル作成  
