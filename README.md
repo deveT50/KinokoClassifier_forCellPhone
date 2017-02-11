@@ -7,10 +7,12 @@
 画像分類:ubuntu14.04, python2.7, chainer1.14.0  
 
 ----------------------
+<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1067.JPG" width="400px">  
+<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1068.PNG" width="400px">  
+<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1068.PNG" width="400px">  
 
 
-
-
+スクリーンショット  
 
 ##何をするのか  
 キノコを分類します。  
@@ -30,8 +32,7 @@
 * マイタケ  
 
 ##何がやりたかったのか？  
-![スケッチ](https://s-media-cache-ak0.pinimg.com/736x/b6/17/e6/b617e6bb090c049568e318d69c8e36c2.jpg "ダヴィンチのスケッチ")　　
-<img src="https://s-media-cache-ak0.pinimg.com/736x/b6/17/e6/b617e6bb090c049568e318d69c8e36c2.jpg" width="400px">
+<img src="https://s-media-cache-ak0.pinimg.com/736x/b6/17/e6/b617e6bb090c049568e318d69c8e36c2.jpg" width="400px">  
 
 ##フォルダ構成  
 * backend_CNN_classifier ・・・・・・・・・・・・・・ chainerで画像分類用CNNモデル作成  
