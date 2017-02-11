@@ -1,7 +1,7 @@
 # KinokoClassifier_forCellPhone  
 キノコを分類するスマホアプリ（HTML5ハイブリッドアプリ）  
 
-環境
+環境  
 フロント  :スマホ（iOS,Android）, monaca  
 バック   :Heroku, Flask0.10.1  
 画像分類:ubuntu14.04, python2.7, chainer1.14.0  
