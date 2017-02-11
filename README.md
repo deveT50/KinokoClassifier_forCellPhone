@@ -1,7 +1,7 @@
 # KinokoClassifier_forCellPhone  
-キノコ分類用スマホアプリ  
-
 キノコを分類するスマホアプリ（HTML5ハイブリッドアプリ）  
+
+環境
 フロント  :スマホ（iOS,Android）, monaca  
 バック   :Heroku, Flask0.10.1  
 画像分類:ubuntu14.04, python2.7, chainer1.14.0  
@@ -29,10 +29,10 @@
 * マイタケ  
 
 ##何がやりたかったのか？  
-<img src="https://s-media-cache-ak0.pinimg.com/736x/b6/17/e6/b617e6bb090c049568e318d69c8e36c2.jpg" width="200px">  
+<img src="https://s-media-cache-ak0.pinimg.com/736x/b6/17/e6/b617e6bb090c049568e318d69c8e36c2.jpg" width="300px">  
 ##結果  
-<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_0972.PNG" width="200px"><img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1081.PNG" width="200px">  
-
+<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_0972.PNG" width="200px"><img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1081.PNG" width="200px">
+<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1078.PNG" width="500px"><img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1080.PNG" width="200px">  
 ##フォルダ構成  
 * backend_CNN_classifier ・・・・・・・・・・・・・・ chainerで画像分類用CNNモデル作成  
 * backend_heroku ・・・・・・・・・・・・・・・・・・・・・・・・・ システムのバックエンド。Herokuにアップロードする  
