@@ -7,9 +7,9 @@
 画像分類:ubuntu14.04, python2.7, chainer1.14.0  
 
 ----------------------
-<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1067.JPG" width="400px">  
-<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1068.PNG" width="400px">  
-<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1068.PNG" width="400px">  
+<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1067.JPG" width="200px">
+<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1068.PNG" width="200px">
+<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1069.PNG" width="200px">  
 
 
 スクリーンショット  
