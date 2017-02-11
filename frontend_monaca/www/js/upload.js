@@ -66,38 +66,6 @@ function camera(isCamera){
 	}
 }
 
-/*
-//init function
-function loadParam(ver){
-        var data={'version':ver};
-        data=JSON.stringify(data);
-		$.ajax({
-			type: 'post',
-            url:'your/post/url',
-            data:JSON.stringify(data),
-			dataType:'json',
-            contentType:'application/json',
-			cache: false,
-			async: true,
-			success: function(result){
-                var res=JSON.stringify(result);
-    		    res=JSON.parse(res);
-                //alert(res[0]);
-                $('#camera')[0].innerHTML=res[1];
-                $('#album')[0].innerHTML=res[2];
-                
-			},
-			error: function(XMLHttpRequest, textStatus, errorThrown) {
-				alert(errorThrown);
-                //description.innerHTML="申し訳ありません。分類できませんでした。";
-			},
-		});
-		
-	
-}
-
-*/
-
 //init(MySQL)
 function loadParam(ver){
         
@@ -154,7 +122,7 @@ function knockHeroku(query){
 }
 
 
-// アップロード*分類(herokuPostgres)
+// アップロード*分類
 function upload(loading,caption,description){
 	if(g_image != '') {
         var data={'img':g_image};
@@ -214,7 +182,7 @@ function storeImage(image, classid, probability, version){
                 'ver':version,};
         $.ajax({
 			type: 'post',
-            url:'your/strage/url',
+            url:'your/post/url',
             data:JSON.stringify(data),
 			dataType:'json',
             contentType:'application/json',

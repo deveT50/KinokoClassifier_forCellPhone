@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Flask Upload Test</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	
+</head>
+
+<body>
+
+	<h1>server test</h1>
+	
+	<button id="bttb">ajax post</button><p id="target"></p>
+	<button id="bttc">ajax classify</button><br>
+	<table id="classified">
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+
+	<script>
+		(function () {
+			'use strict';
+
+			//formを生成してファイル選択
+			var onClickButton = function () {
+				var html =
+						'<form id="uploadForm" class="upload-form" style="display: none;">' +
+						'<input id="theFile" name="the_file" type="file">' +
+						'</form>';
+				$('body').append(html);
+				$('#theFile').on('change', uploadFile).click();
+				//alert('clicked');
+			};
+
+			
+			//画像アップロード用POST
+			var uploadFile = function () {
+				var formData = new FormData($('#uploadForm')[0]);
+				var dataImg='R0lGODlhDwAPAKECAAAAzMzM/////wAAACwAAAAADwAPAAACIISPeQHsrZ5ModrLlN48CXF8m2iQ3YmmKqVlRtW4MLwWACH+H09wdGltaXplZCBieSBVbGVhZCBTbWFydFNhdmVyIQAAOw=='
+				formData.append('img', dataImg);
+
+				$.ajax({
+					url: 'your/upload/url',
+					type: 'post',
+					data: formData,
+					processData: false,
+					contentType: false,
+					timeout: 10000,
+				}).success(function (result) {
+					console.log('done');
+				}).fail(function (data, textStatus, errorThrown) {
+					console.log('fail');
+					alert(errorThrown);
+				}).then(function (result) {
+					$('#uploadForm').remove();
+					//pathを記載
+					$("#target")[0].innerHTML=result.path;
+				});
+
+			};
+
+			//classify用POST
+			var onClickClassify=function(){
+				//送信データ準備
+				var formData =$("#target")[0].innerHTML;
+				var data={'img':formData};
+				data=JSON.stringify(data);
+				//送信
+				$.ajax({
+					url: 'your/upload/url',
+					type: 'post',
+					dataType: 'json',
+					contentType: 'application/json',
+					data:JSON.stringify(data),
+					timeout: 10000,
+				}).success(function (result) {
+					console.log('done');
+					//結果を表示
+					var res=JSON.stringify(result);
+					res=JSON.parse(res);
+					var parent=$("#classified")[0];
+					alert(res[3]);
+					alert(res[4]);
+					alert("here!");
+					for(var i=0;i<Object.keys(res).length-2;i++){
+						alert(res[i]['class']);
+						parent.rows[i].cells[0].innerHTML=res[i]['class'];
+						parent.rows[i].cells[1].innerHTML=res[i]['p']*100+"%";
+					}
+					alert("here!");
+				}).fail(function (data, textStatus, errorThrown) {
+					console.log('fail');
+					alert(errorThrown);
+				}).then(function () {
+				});
+			};
+
+			$('#bttb').on('click', onClickButton);
+			$('#bttc').on('click', onClickClassify);
+		})();
+	</script>
+
+</body>
+
+	
+
+</html>
