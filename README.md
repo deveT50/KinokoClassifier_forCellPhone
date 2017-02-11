@@ -31,8 +31,8 @@
 ##何がやりたかったのか？  
 <img src="https://s-media-cache-ak0.pinimg.com/736x/b6/17/e6/b617e6bb090c049568e318d69c8e36c2.jpg" width="300px">  
 ##結果  
-<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_0972.PNG" width="100px"> <img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1081.PNG" width="300px">
-<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1078.PNG" width="200px"> <img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1080.PNG" width="300px">  
+<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_0972.PNG" width="100px"> <img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1081.PNG" width="250px">
+<img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1078.PNG" width="150px"> <img src="https://github.com/deveT50/images/blob/master/KinokoClassifier_forCellPhone/IMG_1080.PNG" width="250px">  
 ##フォルダ構成  
 * backend_CNN_classifier ・・・・・・・・・・・・・・ chainerで画像分類用CNNモデル作成  
 * backend_heroku ・・・・・・・・・・・・・・・・・・・・・・・・・ システムのバックエンド。Herokuにアップロードする  
